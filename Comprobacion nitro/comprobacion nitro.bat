@@ -117,16 +117,3 @@ goto start
 :end
 pause
 exit
-
-If EXIST "C:\Program Files (x86)\Nitro" (
- ECHO Nitro en directorio x86 esta instalado
-) ELSE (
- echo holaaaa
-)
-If EXIST "C:\Program Files\Nitro" (
- ECHO Nitro en directorio normal esta instalado
-) ELSE (
- ECHO Nitro no esta instalado
-)
-pause > nul
-EXIT
